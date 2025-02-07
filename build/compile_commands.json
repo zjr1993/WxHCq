@@ -1,0 +1,17 @@
+[
+{
+  "directory": "C:/zjs/CQXLL/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DXlCq_EXPORTS -IC:\\zjs\\CQXLL\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\XlCq.dir\\auxiliary.cpp.obj /FdTARGET_COMPILE_PDB -c -- C:\\zjs\\CQXLL\\src\\auxiliary.cpp",
+  "file": "C:\\zjs\\CQXLL\\src\\auxiliary.cpp"
+},
+{
+  "directory": "C:/zjs/CQXLL/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DXlCq_EXPORTS -IC:\\zjs\\CQXLL\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\XlCq.dir\\function.cpp.obj /FdTARGET_COMPILE_PDB -c -- C:\\zjs\\CQXLL\\src\\function.cpp",
+  "file": "C:\\zjs\\CQXLL\\src\\function.cpp"
+},
+{
+  "directory": "C:/zjs/CQXLL/build",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\Preview\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe  /nologo -TP -DXlCq_EXPORTS -IC:\\zjs\\CQXLL\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\XlCq.dir\\xlcall.cpp.obj /FdTARGET_COMPILE_PDB -c -- C:\\zjs\\CQXLL\\src\\xlcall.cpp",
+  "file": "C:\\zjs\\CQXLL\\src\\xlcall.cpp"
+}
+]

@@ -1,0 +1,14 @@
+LIBRARY "XlCq"
+
+EXPORTS
+    xlAutoOpen
+    xlAutoClose
+    xlAutoRegister12
+    xlAutoAdd
+    xlAutoRemove
+    xlAddInManagerInfo12
+    xlAutoFree12
+    CqRangeType
+    CqSetValue
+    fArray
+

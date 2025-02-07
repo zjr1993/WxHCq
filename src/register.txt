@@ -1,0 +1,66 @@
+{
+    L"CqRangeType",
+    L"QQ",
+    L"CqRangeType",
+    L"区域",
+    L"1",
+    L"CqTestFuncs",
+    L"",
+    L"",
+    L"显示一个excel区域引用的类型",
+    L"区域引用"
+},
+{
+    L"CqSetValue",
+    L"II",
+    L"CqSetValue",
+    L"数值",
+    L"1",
+    L"CqTestFuncs",
+    L"",
+    L"",
+    L"给区域B10:B12赋值",
+    L"需要给区域赋值的值"
+},
+{
+    L"fArray",
+    L"QQ",
+    L"fArray",
+    L"区域",
+    L"1",
+    L"CqTestFuncs",
+    L"",
+    L"",
+    L"返回一个列表",
+    L"需要给区域赋值的值"
+}
+
+/*
+Boolean      A   L (short 0=false 或 1=true)
+double       B   E
+char*             C|F  以NULL结尾的ASCII字节字符串
+unsigned char*    D|G  长度计数型ASCII字节字符串
+
+short*            C%|F%  以NULL结尾的宽字节字符串
+unsigned short*   D%|G%  长度计数型宽字节字符串
+
+unsigned short    H       WORD
+short             I | M   16位
+int               J | N   32位
+Array             O%      按引用传递为三个参数：1. int *行 int *列 double *数组
+FP12              K%      浮点数组
+XLOPE12           Q | U   值、数组和范围引用
+
+The types C%, F%, D%, G%, K%, O%, Q, and U were all new in Microsoft Office Excel 2007 and are not supported in
+earlier versions. The string types F, F%, G, and G% are used for arguments that are modified-in-place. When
+XLOPER or XLOPER12 arguments are registered as types P or Q respectively, Excel converts single-cell references
+to simple values and multi-cell references to arrays when it prepares them.
+P and Q types always arrive in your function as one of the following types: xltypeNum, xltypeStr, xltypeBool, xltypeErr, xltypeMulti, xltypeMissing, or xltypeNil, but not xltypeRef or xltypeSRef because these are always dereferenced.
+Type O, which is really three arguments on the stack, was introduced for compatibility with Fortran DLLs where
+arguments are passed by reference. It cannot be used to return a value except by declaring the argument as a
+modify-in-place return value and placing the results in the referenced values. Type O% extends type O in Excel
+2007 so that it can access arrays that cover areas larger than the Office Excel 2003 grid.
+*/
+
+
+

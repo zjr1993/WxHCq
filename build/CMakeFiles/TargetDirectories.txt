@@ -1,0 +1,11 @@
+C:/zjs/CQXLL/build/CMakeFiles/edit_cache.dir
+C:/zjs/CQXLL/build/CMakeFiles/rebuild_cache.dir
+C:/zjs/CQXLL/build/CMakeFiles/list_install_components.dir
+C:/zjs/CQXLL/build/CMakeFiles/install.dir
+C:/zjs/CQXLL/build/CMakeFiles/install/local.dir
+C:/zjs/CQXLL/build/src/CMakeFiles/XlCq.dir
+C:/zjs/CQXLL/build/src/CMakeFiles/edit_cache.dir
+C:/zjs/CQXLL/build/src/CMakeFiles/rebuild_cache.dir
+C:/zjs/CQXLL/build/src/CMakeFiles/list_install_components.dir
+C:/zjs/CQXLL/build/src/CMakeFiles/install.dir
+C:/zjs/CQXLL/build/src/CMakeFiles/install/local.dir
